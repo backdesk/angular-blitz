@@ -1,0 +1,4 @@
+<h3>My Contact List</h3>
+<ul>
+  <li ng-repeat="contact in contacts"><a ui-sref="contactsView({id: contact._id})">{{ contact.name }}</a></li>
+</ul>
